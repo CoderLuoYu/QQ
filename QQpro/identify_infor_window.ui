@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <widget class="QPushButton" name="head_button">
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>chushitouxian.png</normaloff>chushitouxian.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,9">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>昵称</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="name_box">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,9">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>个签</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="signature_box">
+       <property name="text">
+        <string>这个人很懒，没有留下什么痕迹~~~</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,9">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>性别</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="sex_box">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>男</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>女</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>保密</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,9">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>生日</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="birthday_box"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,9">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>国家</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="country_box">
+       <item>
+        <property name="text">
+         <string>中国</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>美国</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>日本</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>俄罗斯</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>英国</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>法国</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>德国</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>意大利</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>瑞典</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>瑞士</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,9">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>省份</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="address_box">
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>广东</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>云南</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>广西</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>河南</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>河北</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>湖南</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>湖北</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>四川</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>山东</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>山西</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>陕西</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>江苏</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>北京</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>天津</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>湖南</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>海南</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>上海</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>内蒙古</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>江西</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>甘肃</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>辽宁</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>吉林</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>黑龙江</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>安徽</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>福建</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>贵州</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>重庆</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>宁夏</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>浙江</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>青海</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>台湾</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>香港</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>澳门</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>新疆</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="save_button">
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancel_button">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
